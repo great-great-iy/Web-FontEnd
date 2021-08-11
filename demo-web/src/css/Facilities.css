@@ -1,0 +1,35 @@
+.facilities-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+}
+
+.facilities-row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.facilities-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    position: relative;
+    text-align: left;
+}
+
+.facilities-col > img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.facilities-col > p{
+    padding: 0;
+    text-align: justify;
+}
+
+.facilities-col > h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
