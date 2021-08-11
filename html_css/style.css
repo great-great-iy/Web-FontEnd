@@ -20,8 +20,14 @@ nav{
     align-items: center;
 }
 
-nav img{
-    width: 150px;
+.nav-logo {
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.nav-logo img{
+    width: 100%;
+    display: block;
 }
 
 .nav-links{
