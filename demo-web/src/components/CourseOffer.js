@@ -4,7 +4,7 @@ import "../css/CourseOffer.css";
 function CourseOffer() {
     return (
         <div className="course-container">
-            <h1>Coures We Offer</h1>
+            <h1>Course We Offer</h1>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
 
             <div class="course-row">
