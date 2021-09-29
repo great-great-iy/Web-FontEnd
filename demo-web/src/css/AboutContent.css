@@ -1,0 +1,35 @@
+.about-container{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.about-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 20px;
+}
+
+.about-col > img{
+    width: 100%;
+}
+
+.about-col > h1{
+    padding-top: 0;
+}
+
+.about-col > p{
+    padding: 15px 0 25px;
+    text-align: justify;
+}
+
+.fas {
+    color: #f5f5f7;
+    font-size: 24px;
+    top: 60%;
+}
