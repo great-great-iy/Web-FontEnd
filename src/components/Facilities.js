@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/Facilities.css';
+import './App.css';
 
 function Facilities() {
     return (

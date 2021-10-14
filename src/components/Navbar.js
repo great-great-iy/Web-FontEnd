@@ -1,35 +1,35 @@
 import React, { useState, useEffect } from 'react';
-import { Button } from './Button';
+// import { button } from './Button';
 import { Link } from 'react-router-dom';
 import '../css/Navbar.css';
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
+  // const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-  const showButton = () => {
-    if (window.innerWidth <= 960) {
-      setButton(false);
-    } else {
-      setButton(true);
-    }
-  };
+  // const showButton = () => {
+  //   if (window.innerWidth <= 960) {
+  //     setButton(false);
+  //   } else {
+  //     setButton(true);
+  //   }
+  // };
 
-  useEffect(() => {
-    showButton();
-  }, []);
+  // useEffect(() => {
+  //   showButton();
+  // }, []);
 
-  window.addEventListener('resize', showButton);
+  // window.addEventListener('resize', showButton);
 
   return (
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            <i className="fas fa-graduation-cap"/> Eduford
+            <i className="fas fa-graduation-cap"/> PTIT
           </Link>
 
           <div className='menu-icon' onClick={handleClick}>

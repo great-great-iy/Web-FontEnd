@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  /* width: 100vw; */
   margin: 0;
   padding: 0;
   font-family: 'PT Sans', sans-serif;
@@ -53,3 +54,16 @@
   font-size: 100px;
 }
 
+.campus-row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.campus-col {
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}

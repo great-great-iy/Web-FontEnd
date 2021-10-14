@@ -1,8 +1,8 @@
 .facilities-container {
-    width: 80%;
+    width: 80vw;
     margin: auto;
     text-align: center;
-    padding: 50px;
+    padding-top: 5vw;
 }
 
 .facilities-row {
