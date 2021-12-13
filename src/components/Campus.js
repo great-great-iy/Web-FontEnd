@@ -1,6 +1,5 @@
 import React from 'react';
 import "../css/Campus.css";
-import './App.css';
 // import {london} from 'images/london.png';
 
 function Campus() {

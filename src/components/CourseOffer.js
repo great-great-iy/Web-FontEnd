@@ -1,6 +1,5 @@
 import React from 'react';
 import "../css/CourseOffer.css";
-import './App.css';
 
 function CourseOffer() {
     return (
