@@ -1,5 +1,5 @@
 .banner-container {
-    background: url('../images/banner.png') center center/cover no-repeat;
+    background: linear-gradient(rgba(10, 10, 30, 0.5),rgba(10,10,30,0.5)), url('../images/banner-ptit.png') center center/cover no-repeat;
     height: 100vh;
     width: 100%;
     display: flex;
