@@ -5,24 +5,29 @@ import '../css/Navbar.css';
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  // const [button, setButton] = useState(true);
+  const [active, setActive] = useState(0);
+  const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
+  const onActive = (value) => {
+    setClick(false);
+    setActive(value);
+  }
 
-  // const showButton = () => {
-  //   if (window.innerWidth <= 960) {
-  //     setButton(false);
-  //   } else {
-  //     setButton(true);
-  //   }
-  // };
+  const showButton = () => {
+    if (window.innerWidth <= 960) {
+      setButton(false);
+    } else {
+      setButton(true);
+    }
+  };
 
-  // useEffect(() => {
-  //   showButton();
-  // }, []);
+  useEffect(() => {
+    showButton();
+  }, []);
 
-  // window.addEventListener('resize', showButton);
+  window.addEventListener('resize', showButton);
 
   return (
     <>
@@ -37,15 +42,18 @@ function Navbar() {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/' 
+                className={`nav-links ${(!click && active === 1)? 'nav-links-active' : ''}`}
+                onClick={() => onActive(1)}
+              >
                 Home
               </Link>
             </li>
             <li className='nav-item'>
               <Link
                 to='/about'
-                className='nav-links'
-                onClick={closeMobileMenu}
+                className={`nav-links ${(!click && active === 2)? 'nav-links-active' : ''}`}
+                onClick={() => onActive(2)}
               >
                 About
               </Link>
@@ -53,8 +61,8 @@ function Navbar() {
             <li className='nav-item'>
               <Link
                 to='/course'
-                className='nav-links'
-                onClick={closeMobileMenu}
+                className={`nav-links ${(!click && active === 3)? 'nav-links-active' : ''}`}
+                onClick={() => onActive(3)}
               >
                 Course
               </Link>
@@ -63,8 +71,8 @@ function Navbar() {
             <li className='nav-item'>
               <Link
                 to='/blog'
-                className='nav-links'
-                onClick={closeMobileMenu}
+                className={`nav-links ${(!click && active === 4)? 'nav-links-active' : ''}`}
+                onClick={() => onActive(4)}
               >
                 Blog
               </Link>
@@ -73,8 +81,8 @@ function Navbar() {
             <li className='nav-item'>
               <Link
                 to='/contact'
-                className='nav-links'
-                onClick={closeMobileMenu}
+                className={`nav-links ${(!click && active === 5)? 'nav-links-active' : ''}`}
+                onClick={() => onActive(5)}
               >
                 Contact
               </Link>

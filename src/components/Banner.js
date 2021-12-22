@@ -1,10 +1,22 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import "../css/Banner.css";
 import { Button } from './Button';
 
 function Banner() {
-    const [button] = useState(true);
-
+    const [button, setButton] = useState(true);
+    const showButton = () => {
+        if (window.innerWidth <= 960) {
+          setButton(false);
+        } else {
+          setButton(true);
+        }
+      };
+    
+      useEffect(() => {
+        showButton();
+      }, []);
+    
+    window.addEventListener('resize', showButton);
     return (
         <div className="banner-container">
             <div class="text-box">
