@@ -13,7 +13,6 @@ function Home() {
       <CourseOffer />
       <Campus />
       <Facilities />
-      <Footer />
     </>
   );
 }

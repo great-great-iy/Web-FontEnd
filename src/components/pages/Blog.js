@@ -1,12 +1,13 @@
 import React from 'react';
 import '../../App.css';
-import Footer from '../Footer';
+import BlogContent from '../BlogContent';
+import SubBanner from '../SubBanner';
 
 export default function Blog() {
   return (
     <>
-      <h1 className="blog">BLOG</h1>
-      <Footer />
+      <SubBanner text = 'BLOG'/>
+      <BlogContent/>
     </>
   );
 }

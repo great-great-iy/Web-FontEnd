@@ -1,12 +1,13 @@
 import React from 'react';
 import '../../App.css';
-import Footer from '../Footer';
+import CourseOffer from '../CourseOffer';
+import SubBanner from '../SubBanner';
 
 export default function Course() {
   return (
     <>
-      <h1 className='course'>COURSE</h1>
-      <Footer />
+      <SubBanner text='COURSE'/>
+       <CourseOffer/>
     </>
   );
 }

@@ -1,12 +1,13 @@
 import React from 'react';
 import '../../App.css';
-import Footer from '../Footer';
+import ContactContent from '../ContactContent';
+import SubBanner from '../SubBanner';
 
 export default function Contact() {
   return (
     <>
-      <h1 className='contact'>CONTACT</h1>
-      <Footer />
+      <SubBanner text = 'CONTACT'/>
+      <ContactContent/>
     </>
   );
 }

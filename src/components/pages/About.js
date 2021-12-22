@@ -1,12 +1,13 @@
 import React from 'react';
 import '../../App.css';
-import Footer from '../Footer';
+import AboutContent from '../AboutContent';
+import SubBanner from '../SubBanner'
 
 export default function About() {
   return (
     <>
-      <h1 className='about'>ABOUT US</h1>
-      <Footer />
+      <SubBanner text = 'ABOUT US'/>
+      <AboutContent/>
     </>
   );
 }
