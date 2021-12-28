@@ -62,10 +62,10 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              PTIT
+              <img src='../images/Logo_PTIT_3D.png'/>
             </Link>
           </div>
-          <small class='website-rights'>PTIT @ 2021</small>
+          <small class='website-rights'>Hoc Vien Cong Nghe Buu Chinh Vien Thong @ 2021</small>
           <div class='social-icons'>
             <a 
               class='social-icon-link facebook'

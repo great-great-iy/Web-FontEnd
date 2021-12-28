@@ -6,7 +6,7 @@ import '../css/Navbar.css';
 function Navbar() {
   const [click, setClick] = useState(false);
   const [active, setActive] = useState(0);
-  const [button, setButton] = useState(true);
+  
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -15,26 +15,15 @@ function Navbar() {
     setActive(value);
   }
 
-  const showButton = () => {
-    if (window.innerWidth <= 960) {
-      setButton(false);
-    } else {
-      setButton(true);
-    }
-  };
-
-  useEffect(() => {
-    showButton();
-  }, []);
-
-  window.addEventListener('resize', showButton);
+  
 
   return (
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            <i className="fas fa-graduation-cap"/> PTIT
+            {/* <i className="fas fa-graduation-cap"/> PTIT */}
+            <img src='../images/Logo_PTIT_University.png'/>
           </Link>
 
           <div className='menu-icon' onClick={handleClick}>

@@ -1,5 +1,5 @@
 .sub-banner-container {
-    background: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)), url('../images/background.jpg') center center/cover no-repeat;
+    background: linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)), url('../images/background.jpg') center center/cover no-repeat;
     height: 40vh;
     width: 100%;
     display: flex;

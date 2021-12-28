@@ -125,11 +125,15 @@
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
+  width: 48px;
   text-decoration: none;
   font-size: 2rem;
   display: flex;
   align-items: center;
   margin-bottom: 16px;
+}
+.social-logo img{
+  width: 100%;
 }
 
 .website-rights {
