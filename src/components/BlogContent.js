@@ -1,6 +1,7 @@
 import React from 'react';
 import "../css/BlogContent.css"
 
+
 function BlogContent() {
     return (
         <div className="blog-container">

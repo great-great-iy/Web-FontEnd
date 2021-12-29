@@ -6,7 +6,7 @@ import SubBanner from '../SubBanner';
 export default function Blog() {
   return (
     <>
-      <SubBanner text = 'BLOG'/>
+      <SubBanner text = 'Blog'/>
       <BlogContent/>
     </>
   );

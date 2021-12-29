@@ -25,7 +25,13 @@
     margin-bottom: 40px;
 }
 
-.contact-col > div .fa{
+.contact-row .address{
+    flex-basis: 30%;
+}
+.contact-row .contact{
+    flex-basis: 60%;
+}
+.contact-col > div .far, .contact-col > div .fas{
     font-size: 28px;
     color: #f44336;
     margin: 10px;
@@ -50,6 +56,7 @@
     box-sizing: border-box;
     border: 1px solid #ccc;
     outline: none;
+    resize: none;
 }
 
 .hero-btn{

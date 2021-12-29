@@ -6,7 +6,7 @@ import SubBanner from '../SubBanner';
 export default function Course() {
   return (
     <>
-      <SubBanner text='COURSE'/>
+      <SubBanner text='Course'/>
        <CourseOffer/>
     </>
   );

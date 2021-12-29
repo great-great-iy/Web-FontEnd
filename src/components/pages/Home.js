@@ -4,7 +4,7 @@ import Banner from '../Banner';
 import CourseOffer from '../CourseOffer';
 import Campus from '../Campus';
 import Facilities from '../Facilities';
-import Footer from '../Footer';
+import Fallback from '../Fallback';
 
 function Home() {
   return (
@@ -13,6 +13,7 @@ function Home() {
       <CourseOffer />
       <Campus />
       <Facilities />
+      <Fallback/>
     </>
   );
 }

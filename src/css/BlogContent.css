@@ -68,6 +68,7 @@
     border: none;
     outline: none;
     background: #f0f0f0;
+    resize: none;
 }
 
 .comment-box > button{

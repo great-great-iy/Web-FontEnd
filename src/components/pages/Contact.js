@@ -6,7 +6,7 @@ import SubBanner from '../SubBanner';
 export default function Contact() {
   return (
     <>
-      <SubBanner text = 'CONTACT'/>
+      <SubBanner text = 'Contact'/>
       <ContactContent/>
     </>
   );

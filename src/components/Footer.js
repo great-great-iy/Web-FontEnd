@@ -8,7 +8,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+          Join the PTIT to receive our best course deals
         </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
@@ -39,7 +39,6 @@ function Footer() {
             <h2>Contact Us</h2>
             <Link to='/contact'>Contact</Link>
             <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
             <Link to='/'>Sponsorships</Link>
           </div>
         </div>
@@ -62,7 +61,7 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              <img src='../images/Logo_PTIT_3D.png'/>
+              <img src='../images/Logo_PTIT_3D.png' alt='logo'/>
             </Link>
           </div>
           <small class='website-rights'>Hoc Vien Cong Nghe Buu Chinh Vien Thong @ 2021</small>

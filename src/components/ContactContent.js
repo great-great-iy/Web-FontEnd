@@ -1,5 +1,6 @@
 import React from 'react';
 import "../css/ContactContent.css";
+import './../App.css';
 
 function ContactContent() {
     return (
@@ -9,31 +10,31 @@ function ContactContent() {
             </section>
             
             <section className="contact-container">
-                <div class="contect-row">
-                    <div class="contact-col">
+                <div class="contact-row">
+                    <div class="contact-col address">
                         <div>
-                            <i class="fa fa-home"></i>
+                            <i class="fas fa-home"></i>
                             <span>
                                 <h5>Hoc Vien Cong Nghe Buu Chinh Vien Thong</h5>
                                 <p>30 Tran Phu, P. Mo Lao, Ha Đong, Ha Noi</p>
                             </span>
                         </div>
                         <div>
-                            <i class="fa fa-phone"></i>
+                            <i class="fas fa-phone"></i>
                             <span>
                                 <h5>+84 0123456789</h5>
                                 <p>Monday to Saturday, 7h30AM to 7h30PM</p>
                             </span>
                         </div>
                         <div>
-                            <i class="fa fa-envelope-o"></i>
+                            <i class="far fa-envelope"></i>
                             <span>
                                 <h5>info@....com</h5>
                                 <p>30 Tran Phu, P. Mo Lao, Ha Đong, Ha Noi</p>
                             </span>
                         </div>
                     </div>
-                    <div class="contact-col">
+                    <div class="contact-col contact">
                         <input type="text" placeholder="Enter your name" required />
                         <input type="email" placeholder="Enter email address" required />
                         <input type="text" placeholder="Enter your subject" required />

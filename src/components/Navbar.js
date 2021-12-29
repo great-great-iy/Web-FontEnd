@@ -23,7 +23,7 @@ function Navbar() {
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             {/* <i className="fas fa-graduation-cap"/> PTIT */}
-            <img src='../images/Logo_PTIT_University.png'/>
+            <img src='../images/Logo_PTIT_University.png' alt='logo'/>
           </Link>
 
           <div className='menu-icon' onClick={handleClick}>

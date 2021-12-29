@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import { Button } from './Button';
 import "../css/AboutContent.css"
+import '../App.css';
 
 function AboutContent() {
-    const [button] = useState(true);
 
     return (
         <div className="about-container">
@@ -12,11 +12,11 @@ function AboutContent() {
                     <h1>We are the world's largest university</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro excepturi atque odit, laborum praesentium provident. Fugiat, quae unde, accusamus eius qui eum aut vero neque sint ducimus porro est harum?</p>
                     <div className="btn-container">
-                        {button && <Button buttonStyle="btn--outline">EXPLORE NOW</Button>}
+                        <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
                     </div>
                 </div>
                 <div className="about-col">
-                    <img src="images/about.jpg" />
+                    <img src="images/about.jpg" alt=''/>
                 </div>
             </div>
         </div>
